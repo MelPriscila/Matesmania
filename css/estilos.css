@@ -1,0 +1,173 @@
+/*ESTILO GLOBAL*/
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.fondoBlack {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h6 {
+    color: rgb(65, 65, 65);
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.iconFooter {
+    font-size: 30px;
+    margin-inline: 6px;
+}
+
+/*IMAGENES*/
+#imgLogo {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.imgIntro {
+    height: 80%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.centrocontenedor {
+    display: flex;
+}
+
+.borrar_producto {
+    background-color: rgb(165, 19, 19);
+    color: white;
+}
+
+.card:hover {
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
+.containerMate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+.containerMate .p {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.cardmate {
+    cursor: pointer;
+    box-shadow: 5px 8px 12px;
+}
+
+.imagen {
+    width: 400px;
+}
+
+.formContacto {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.productosTabla {
+    display: flex;
+}
+
+.productosTabla img {
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.cantidadTabla input {
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: grey;
+}
+
+.containerfooter {
+    display: flow-root;
+    box-sizing: content-box;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tarjeta {
+    width: 50px;
+    height: 26px;
+    margin: 0px 5px 5px 0px;
+}
+
+.margin {
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.personalizados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 25px 20px 20px 25px;
+}
+
+.text {
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.25;
+    margin-top: 30px;
+}
+
+.grabado {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
